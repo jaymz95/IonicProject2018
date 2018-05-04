@@ -16,6 +16,7 @@ export class YoutubePipe implements PipeTransform {
 
   transform(value: string, ...args) {
     //console.log(value);
+    //bypassing security stopping video from being output
     return this.dom.bypassSecurityTrustResourceUrl(value);
   }
 }

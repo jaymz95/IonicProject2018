@@ -26,22 +26,11 @@ export class HomePage {
   constructor(public navCtrl: NavController, public geo: Geolocation, public storage: Storage) {
 
   }
-
+  // changes to genre page if the corresponding radio buttion is checked
   saveGenre(){
     var radioPop = <HTMLInputElement> document.getElementById("Pop");
     if(radioPop.checked){
-      //this.navCtrl.pop();
-
       this.storage.set("myPop", "true");
-
-      /*this.storage.get("myPop").then((data) => {
-        if(data == "true"){
-          console.log("YASS!!");
-        }
-        
-        console.log(data);
-      });*/
-      
       this.navCtrl.push(MusicPage);
     }
 

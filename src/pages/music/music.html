@@ -17,11 +17,13 @@
   <div id="divCheckbox">
     <ion-card *ngFor="let video of pop">
       <ion-card-header>
+        <!--  outputs video title from typescript  -->
         {{video.title}}
       </ion-card-header>
       <ion-card-content style= "align-content: center; vertical-align: -webkit-baseline-middle">
           
-          <iframe  [src]="video.video | youtube" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <!--  outputs video from typescript  -->
+        <iframe  [src]="video.video | youtube" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           
         </ion-card-content>
     </ion-card>

@@ -7,14 +7,12 @@
 </ion-header>
 
 <ion-content padding>
- <!-- The world is your va.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>-->
+ <!--  MAIN PAGE  -->
   <font color="#FF5733" size ="4">
     <p>Which Genres do you prefer?</p>
     <form action="/action_page.php" method="get">
       <font color="#9904F4">
+        <!--  radio buttons  -->
         <input type="radio" name="genre" value="Pop" id="Pop" >Pop<br>
         <input type="radio" name="genre" value="Reggae" id="Reggae" >Reggae<br>
         <input type="radio" name="genre" value="Rock" id="Rock" >Rock<br>
@@ -27,12 +25,12 @@
       </font>
 
       <!--<input type="submit" value="Submit">-->
-
+      <!--  ion button(brings you to genre page)  -->
       <button ion-button full color="light" (click)="saveGenre()">Save</button>
 
     </form>
   </font>
-
+  <!--  location  -->
   <p>Lat: {{ lat }}</p>
   <p>Lng: {{ lng }}</p>
 

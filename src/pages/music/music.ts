@@ -15,7 +15,7 @@ import { Storage } from '@ionic/storage';
   templateUrl: 'music.html',
 })
 export class MusicPage {
-  
+  //outputs the viseos by bypassing the restriction on embedding videos
     pop: any[] = [
       {
         title: 'Britney Spears',
@@ -27,15 +27,14 @@ export class MusicPage {
       }
     ]
 
-
   constructor(public navCtrl: NavController, public navParams: NavParams, public storage: Storage) {
   }
- 
+  
   ionViewDidLoad() {
     console.log('ionViewDidLoad MusicPage');
-    this.storage.get("myRap").then((data) => {
+    this.storage.get("myPop").then((data) => {
     if(data == "true"){
-      
+
     }
     
     console.log(data);
