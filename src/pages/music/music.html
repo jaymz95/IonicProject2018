@@ -7,22 +7,23 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>music</ion-title>
+    <ion-title>Pop</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
-  <ion-card *ngFor="let video of videos">
-    <ion-card-header>
-      {{video.title}}
-    </ion-card-header>
-    <ion-card-content>
-        
-        <iframe width="560" height="315" [src]="video.video | youtube" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        <!--<iframe width="560" height="315" [src]="video.video | youtube" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        -->
-      </ion-card-content>
-  </ion-card>
+  <div id="divCheckbox">
+    <ion-card *ngFor="let video of pop">
+      <ion-card-header>
+        {{video.title}}
+      </ion-card-header>
+      <ion-card-content style= "align-content: center; vertical-align: -webkit-baseline-middle">
+          
+          <iframe  [src]="video.video | youtube" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          
+        </ion-card-content>
+    </ion-card>
+  </div>
 </ion-content>

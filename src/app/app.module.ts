@@ -9,6 +9,14 @@ import { Storage } from '@ionic/storage';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { MusicPage } from '../pages/music/music';
+import { ReggaePage } from '../pages/reggae/reggae';
+import { RockPage } from '../pages/rock/rock';
+import { CountryPage } from '../pages/country/country';
+import { EdmPage } from '../pages/edm/edm';
+import { AlternativePage } from '../pages/alternative/alternative';
+import { SoulPage } from '../pages/soul/soul';
+import { RapPage } from '../pages/rap/rap';
+import { KpopPage } from '../pages/kpop/kpop';
 import { YoutubePipe } from '../pipes/youtube/youtube';
 
 @NgModule({
@@ -16,6 +24,14 @@ import { YoutubePipe } from '../pipes/youtube/youtube';
     MyApp,
     HomePage,
     MusicPage,
+    ReggaePage,
+    RockPage,
+    CountryPage,
+    EdmPage,
+    AlternativePage,
+    SoulPage,
+    RapPage,
+    KpopPage,
     YoutubePipe
   ],
   imports: [
@@ -27,7 +43,15 @@ import { YoutubePipe } from '../pipes/youtube/youtube';
   entryComponents: [
     MyApp,
     HomePage,
-    MusicPage
+    MusicPage,
+    ReggaePage,
+    RockPage,
+    CountryPage,
+    EdmPage,
+    AlternativePage,
+    SoulPage,
+    RapPage,
+    KpopPage
   ],
   providers: [
     StatusBar,

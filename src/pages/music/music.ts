@@ -15,8 +15,8 @@ import { Storage } from '@ionic/storage';
   templateUrl: 'music.html',
 })
 export class MusicPage {
-
-   videos: any[] = [
+  
+    pop: any[] = [
       {
         title: 'Britney Spears',
         video: 'https://www.youtube.com/embed/QuFTCirwmoM?start=55',
@@ -27,11 +27,19 @@ export class MusicPage {
       }
     ]
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+
+  constructor(public navCtrl: NavController, public navParams: NavParams, public storage: Storage) {
   }
  
   ionViewDidLoad() {
     console.log('ionViewDidLoad MusicPage');
+    this.storage.get("myRap").then((data) => {
+    if(data == "true"){
+      
+    }
+    
+    console.log(data);
+  });
   }
 
 }
