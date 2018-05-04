@@ -18,12 +18,16 @@ export class CountryPage {
 
   country: any[] = [
     {
-      title: 'Britney Spears',
-      video: 'https://www.youtube.com/embed/QuFTCirwmoM?start=55',
+      title: 'Kacey Musgraves',
+      video: 'https://www.youtube.com/embed/BM5Xa1FvNQQ',
     },
     {
-      title: 'Katy Perry',
-      video: 'https://www.youtube.com/embed/EUo4pe5eMbY',
+      title: 'Carrie Underwood',
+      video: 'https://www.youtube.com/embed/WaSy8yy-mr8',
+    },
+    {
+      title: 'Taylor Swift',
+      video: 'https://www.youtube.com/embed/8xg3vE8Ie_E',
     }
   ]
 

@@ -18,12 +18,16 @@ export class RockPage {
 
   rock: any[] = [
     {
-      title: 'Britney Spears',
-      video: 'https://www.youtube.com/embed/QuFTCirwmoM?start=55',
+      title: 'Twenty One Pilots',
+      video: 'https://www.youtube.com/embed/UprcpdwuwCg',
     },
     {
-      title: 'Katy Perry',
-      video: 'https://www.youtube.com/embed/EUo4pe5eMbY',
+      title: 'The Cranberries',
+      video: 'https://www.youtube.com/embed/6Ejga4kJUts',
+    },
+    {
+      title: 'Imagine Dragons',
+      video: 'https://www.youtube.com/embed/mWRsgZuwf_8',
     }
   ]
 

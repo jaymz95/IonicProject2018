@@ -18,12 +18,16 @@ export class RapPage {
 
   rap: any[] = [
     {
-      title: 'Britney Spears',
-      video: 'https://www.youtube.com/embed/QuFTCirwmoM?start=55',
+      title: 'Nicki Minaj',
+      video: 'https://www.youtube.com/embed/Wpm07-BGJnE',
     },
     {
-      title: 'Katy Perry',
-      video: 'https://www.youtube.com/embed/EUo4pe5eMbY',
+      title: 'Cardi B',
+      video: 'https://www.youtube.com/embed/PEGccV-NOm8',
+    },
+    {
+      title: 'Kendrick Lamar',
+      video: 'https://www.youtube.com/embed/tvTRZJ-4EyI',
     }
   ]
 

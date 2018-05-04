@@ -18,12 +18,16 @@ export class SoulPage {
 
   soul: any[] = [
     {
-      title: 'Britney Spears',
-      video: 'https://www.youtube.com/embed/QuFTCirwmoM?start=55',
+      title: 'The Weeknd',
+      video: 'https://www.youtube.com/embed/M4ZoCHID9GI',
     },
     {
-      title: 'Katy Perry',
-      video: 'https://www.youtube.com/embed/EUo4pe5eMbY',
+      title: 'H.E.R.',
+      video: 'https://www.youtube.com/embed/WtCREZoiSQQ',
+    },
+    {
+      title: 'SZA',
+      video: 'https://www.youtube.com/embed/0Exxu8lsGYE',
     }
   ]
 

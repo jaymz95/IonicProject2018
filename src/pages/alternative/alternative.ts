@@ -18,12 +18,12 @@ export class AlternativePage {
 
   alternative: any[] = [
     {
-      title: 'Britney Spears',
-      video: 'https://www.youtube.com/embed/QuFTCirwmoM?start=55',
+      title: 'MARINA AND THE DIAMONDS',
+      video: 'https://www.youtube.com/embed/oiRjvejL5D4',
     },
     {
-      title: 'Katy Perry',
-      video: 'https://www.youtube.com/embed/EUo4pe5eMbY',
+      title: 'Lana Del Rey',
+      video: 'https://www.youtube.com/embed/Bag1gUxuU0g',
     }
   ]
 

@@ -18,12 +18,16 @@ export class KpopPage {
 
   kpop: any[] = [
     {
-      title: 'Britney Spears',
-      video: 'https://www.youtube.com/embed/QuFTCirwmoM?start=55',
+      title: '2NE1',
+      video: 'https://www.youtube.com/embed/j7_lSP8Vc3o',
     },
     {
-      title: 'Katy Perry',
-      video: 'https://www.youtube.com/embed/EUo4pe5eMbY',
+      title: 'PSY',
+      video: 'https://www.youtube.com/embed/9bZkp7q19f0',
+    },
+    {
+      title: 'BTS',
+      video: 'https://www.youtube.com/embed/MBdVXkSdhwU',
     }
   ]
 

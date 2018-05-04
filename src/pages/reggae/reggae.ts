@@ -18,12 +18,16 @@ export class ReggaePage {
 
   reggae: any[] = [
     {
-      title: 'Britney Spears',
-      video: 'https://www.youtube.com/embed/QuFTCirwmoM?start=55',
+      title: 'Rihanna',
+      video: 'https://www.youtube.com/embed/sEhy-RXkNo0',
     },
     {
-      title: 'Katy Perry',
-      video: 'https://www.youtube.com/embed/EUo4pe5eMbY',
+      title: 'Bob Marley',
+      video: 'https://www.youtube.com/embed/Mm7muPjevik',
+    },
+    {
+      title: 'Konshens',
+      video: 'https://www.youtube.com/embed/EqDwdT0_DrA',
     }
   ]
 

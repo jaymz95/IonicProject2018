@@ -18,12 +18,12 @@ export class EdmPage {
 
   edm: any[] = [
     {
-      title: 'Britney Spears',
-      video: 'https://www.youtube.com/embed/QuFTCirwmoM?start=55',
+      title: 'Avicii',
+      video: 'https://www.youtube.com/embed/6Cp6mKbRTQY',
     },
     {
-      title: 'Katy Perry',
-      video: 'https://www.youtube.com/embed/EUo4pe5eMbY',
+      title: 'Swedish House Mafia',
+      video: 'https://www.youtube.com/embed/1y6smkh6c-0',
     }
   ]
 
