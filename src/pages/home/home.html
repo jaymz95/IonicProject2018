@@ -1,14 +1,39 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color="primary">
     <ion-title>
-      Ionic Blank
+      Musique
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
+ <!-- The world is your va.
   <p>
     If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  </p>-->
+  <font color="#FF5733" size ="4">
+    <p>Which Genres do you prefer?</p>
+    <form action="/action_page.php" method="get">
+      <font color="#9904F4">
+        <input type="checkbox" name="genre" value="Pop" id="Pop" >Pop<br>
+        <input type="checkbox" name="genre" value="Reggae" id="Reggae" >Reggae<br>
+        <input type="checkbox" name="genre" value="Rock" id="Rock" >Rock<br>
+        <input type="checkbox" name="genre" value="Country" id="Country" >Country<br>
+        <input type="checkbox" name="genre" value="EDM" id="EDM" >EDM<br>
+        <input type="checkbox" name="genre" value="Alternative" id="Alternative" >Alternative<br>
+        <input type="checkbox" name="genre" value="Soul" id="Soul" >Soul<br>
+        <input type="checkbox" name="genre" value="Rap" id="Rap">Rap<br>
+        <input type="checkbox" name="genre" value="K-Pop" id="K-Pop" >K-Pop<br>
+      </font>
+
+      <!--<input type="submit" value="Submit">-->
+
+      <button ion-button full color="light" (click)="saveGenre()">Save</button>
+
+    </form>
+  </font>
+
+  <p>Lat: {{ lat }}</p>
+  <p>Lng: {{ lng }}</p>
+
 </ion-content>
